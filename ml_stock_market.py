@@ -9,7 +9,7 @@ Original file is located at
 
 import pandas as pd
 
-df = pd.read_csv('/content/sample_data/GSPC.csv')
+df = pd.read_csv('GSPC.csv')
 df.head()
 
 df = df.drop('Date', axis = 1)
